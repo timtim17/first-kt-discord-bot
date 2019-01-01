@@ -15,6 +15,7 @@ repositories {
 dependencies {
     compile(kotlin("stdlib-jdk8"))
     compile("org.javacord:javacord:3.0.1")
+    compile("org.reflections:reflections:0.9.11")
 }
 
 tasks.withType<KotlinCompile> {
